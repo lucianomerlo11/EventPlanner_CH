@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #000;
+    background: rgb(255, 123, 113);
+    background: linear-gradient(90deg, rgba(255, 123, 113, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 30px;
+    align-items: flex-end;
+}
+
+header nav ul li a {
+    text-decoration-line: none;
+    padding: 10px;
+    color: #2d3436;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: #2d3436;
+    color: #ecf0f1;
+    border-radius: 20px;
+}
+
+
+/* --------------------- NAVAR --------------------------------- */
+
+.banner {
+    height: 500px;
+    background-image: url(../resources/images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner h1 {
+    /* align-self: center; */
+    font-size: 8rem;
+    color: gold;
+    border-color: solid 30px white;
+}
+
+.banner .btnRegistrarEvento {
+    padding: 10px 100px 10px 100px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: gold;
+}
+
+.banner .btnRegistrarEvento,
+h1 {
+    /* display: inline; */
+    margin-right: 30px;
+}
+
+.btnRegistrarEvento button:hover {
+    background-color: tomato;
+}
+
+.texto-borde {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+
+/* ------------------------------- BANNER --------------------------------- */
+
+.espacio1 {
+    height: 8px;
+    background-color: black;
+}
+
+.salones h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.salones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f3a683;
+    padding-top: 0%;
+}
+
+.salon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 89px;
+}
+
+.tipoSalon {
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.tipoSalon {
+    border-radius: 0px;
+}
+
+.salon1,
+.salon2,
+.salon3 {
+    background-size: 300px 300px;
+}
+
+.salon1 {
+    background-image: url(../resources/images/salon1.jpg);
+}
+
+.salon2 {
+    background-image: url(../resources/images/salon2.jpg);
+}
+
+.salon3 {
+    background-image: url(../resources/images/salon3.jpg);
+}
+
+.salon4 {
+    background-image: url(../resources/images/salon4.jpg);
+    background-size: cover;
+}
+
+
+/* ------------------------------- SALONES --------------------------------- */
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comments h2 {
+    padding: 30px;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: space-around;
+    margin-bottom: 30px;
+}
+
+.testigo {
+    width: 300px;
+    height: 450px;
+    border: 2px solid aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin: 0px 10px 0px 10px; 
+}
+
+.testigo h2,
+p {
+    text-align: center;
+}
+
+.testigo p{
+    font-style: italic;
+}
+
+.comentImg {
+    height: 225px;
+    background-color: #78e08f;
+}
+
+.comentarioImg1 {
+    background-image: url(../resources/images/testigo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comentarioImg2 {
+    background-image: url(../resources/images/testigo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.comentarioImg3 {
+    background-image: url(../resources/images/testigo3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.comentarioImg4 {
+    background-image: url(../resources/images/testigo4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+
+/* ------------------------------- COMENTARIOS --------------------------------- */
+
+footer {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* top: 2000px;
+    position: relative; */
+}
+
+footer h6 {
+    color: #FFF;
+    text-align: center;
+    align-self: center;
+    font-size: 15px;
+}
+
+
+/* ------------------------------- FOOTER --------------------------------- */
+
+
+/* ------------------------------- WEB-RESPONSIVE --------------------------------- */
+
+@media screen and (max-width: 768px) {
+    .banner {
+        align-items: flex-start;
+    }
+    .banner .btnRegistrarEvento,
+    h1 {
+        margin-left: 30px;
+    }
+    .salones {
+        flex-wrap: wrap;
+    }
+    .salon {
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .comentarios {
+        flex-wrap: wrap;
+        height: 1000px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header nav{
+        justify-content: center;
+    }
+
+    header nav ul li a{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .banner h1{
+        font-size: 6rem;
+    }
+
+    .tipoSalon{
+        width: 250px;
+        height: 250px;
+    }
+
+    .salon {
+        flex-wrap: wrap;
+        height: 1200px; 
+    }
+    .testigo {
+        width: 150px;
+        height: 225px;
+    }
+
+    .comments h2{
+        padding: 0%;
+        font-size: 1rem;
+    }
+
+    .comments p{
+        font-size: 0.8rem;
+    }
+
+    .comentarios{
+        height: 500px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .salones-container{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .salons-salon1, .salons-salon2, .salons-salon3, .salons-salon4{
+        width: 100%;
+    }
+
+    .info{
+        margin: 30px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    header nav ul li a:hover {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    header nav ul li a:hover {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    header nav ul li a:hover {
+        border-radius: 10px;
+    }
+}

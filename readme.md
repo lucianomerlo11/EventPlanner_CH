@@ -1,0 +1,5 @@
+El siguiente proyecto corresponde a al proyecto final del curso de Desarrollo Web dictado en Coderhouse.
+Este proyecto permite llevar a cabo la contratación de un servicio que brinda la Gestión de un Evento a fin de
+festejar o celebrar un suceso especial en la vida de las personas como por ejemplo un Casamiento, Fiesta de Egresados, Fiesta de 15 años, Bodas de plata, Bodas de Oro. 
+Por el momento, para validar el producto con un MVP solo se realizaran los eventos mencionados. En las proximas iteraciones del producto se preveé llevar a cabo la realización de eventos personalizados, donde los clientes expresaran sus necesidades y un colaborador o grupo de colaboradores se podran en marcha para organizar un evento en base a las necesidades del cliente. 
+A su vez, la facturación del evento no se implementará hasta tomar conocimientos de los permisos fiscales en Argentina.

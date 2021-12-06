@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.evento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 900px;
+}
+
+.eventos {
+    width: 350px;
+    height: 400px;
+    border: 3px solid #000;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.evento_Casamiento_Img {
+    width: 345px;
+    height: 250px;
+    background-image: url(../resources/images/casamiento.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.evento_Quince_Img {
+    width: 345px;
+    height: 250px;
+    background-image: url(../resources/images/15años.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.evento_Egresados_Img {
+    width: 345px;
+    height: 250px;
+    background-image: url(../resources/images/egresados.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.evento_Infantil_Img {
+    width: 345px;
+    height: 250px;
+    background-image: url(../resources/images/infantil.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.evento_Especiales_Img {
+    width: 345px;
+    height: 250px;
+    background-image: url(../resources/images/especiales.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10% 10% 0% 0%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 600px;
+    display: block;
+    background-color: tomato;
+    margin-top: 30px;
+}
+
+.titulo h1 {
+    display: inline;
+    margin-left: 35%;
+    font-size: 46px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 425px ) {
+    .evento{
+        flex-wrap: wrap;
+        margin-bottom: 765px;
+    }
+
+    .eventos{
+        margin-top: 10px;
+    }
+
+    .evento_Especiales{
+        margin-bottom: 30px;
+    }
+    .titulo{
+        display: flex;
+        width: 80%;
+    }
+
+    .titulo h1{
+        font-size: 1.5rem;
+    }
+
+    .footer-events{
+        margin-top:190%;
+    }
+    
+}
+
+@media screen and (max-width: 768px ) {
+    .evento{
+        height: 1300px;
+    }
+
+    /* .titulo{
+        display: flex;
+        width: 80%;
+    }
+
+    .titulo h1{
+        font-size: 1.5rem;
+    } */
+
+}

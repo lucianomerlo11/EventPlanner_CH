@@ -1,0 +1,106 @@
+section{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.imagen-contact img{
+    height: 400px;
+    width: 300px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    /* width: 600px; */
+}
+
+input{
+    width: 800px;
+}
+
+textarea{
+    width: 800px;
+    height: 30px;
+}
+.btnEnviarSolicitud{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: transparent;
+    /* background-color: tomato; */
+}
+
+.btnEnviarSolicitud:hover{
+    background-color: tomato;
+}
+.btnEnviarSolicitud a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .imagen-contact img{
+        display: none;
+    }
+
+    input{
+        width: 400px;
+    }
+    
+    textarea{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .imagen-contact img{
+        display: none;
+    }
+
+    input{
+        width: 300px;
+    }
+    
+    textarea{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .imagen-contact img{
+        display: none;
+    }
+
+    input{
+        width: 300px;
+    }
+    
+    textarea{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .imagen-contact img{
+        display: none;
+    }
+
+    input{
+        width: 200px;
+    }
+    
+    textarea{
+        width: 200px;
+    }
+}

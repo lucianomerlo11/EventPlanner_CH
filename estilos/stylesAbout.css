@@ -1,0 +1,103 @@
+h1 {
+    margin: 20px;
+    text-align: left;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    text-align: left;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.about_texto {
+    width: 100%;
+}
+
+.about_image {
+    width: 500px;
+    height: 500px;
+    background-image: url(../resources/images/about1.jpg);
+    /* border-radius: 40%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+@media screen and (max-width: 768px) {
+    section{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    header nav ul li a:hover {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    header nav ul li a:hover {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    header nav ul li a:hover {
+        border-radius: 10px;
+    }
+}
