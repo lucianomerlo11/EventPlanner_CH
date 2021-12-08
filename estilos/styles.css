@@ -4,34 +4,34 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     font-family: 'Varela Round', sans-serif;
-}
+} */
 
 header nav {
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000; */
     background: rgb(255, 123, 113);
     background: linear-gradient(90deg, rgba(255, 123, 113, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
-header nav ul {
+/* header nav ul {
     display: flex;
     list-style: none;
     margin: 30px;
     align-items: flex-end;
-}
+} */
 
-header nav ul li a {
+/* header nav ul li a {
     text-decoration-line: none;
     padding: 10px;
     color: #2d3436;
     font-size: 20px;
-}
+} */
 
-header nav ul li a:hover {
-    background-color: #2d3436;
+header nav ul li:hover {
+    background-color: #badc58;
     color: #ecf0f1;
     border-radius: 20px;
 }
@@ -40,7 +40,7 @@ header nav ul li a:hover {
 /* --------------------- NAVAR --------------------------------- */
 
 .banner {
-    height: 500px;
+    height: 600px;
     background-image: url(../resources/images/banner1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ header nav ul li a:hover {
 
 .banner .btnRegistrarEvento {
     padding: 10px 100px 10px 100px;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
     background-color: gold;
 }
 
@@ -83,41 +83,20 @@ h1 {
 
 /* ------------------------------- BANNER --------------------------------- */
 
-.espacio1 {
-    height: 8px;
-    background-color: black;
+.salon{
+    background-color: #badc58;
 }
 
 .salones h2 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.salones {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #f3a683;
-    padding-top: 0%;
-}
-
-.salon {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 89px;
-}
+} 
 
 .tipoSalon {
     width: 300px;
     height: 300px;
     box-shadow: 10px 5px 5px black;
-}
-
-.tipoSalon {
-    border-radius: 0px;
 }
 
 .salon1,
@@ -130,47 +109,71 @@ h1 {
     background-image: url(../resources/images/salon1.jpg);
 }
 
+.salon2 {
+    background-image: url(../resources/images/salon2.jpg);
+}
+.salon4 {
+    background-image: url(../resources/images/salon4.jpg);
+    background-size: cover;
+}
+.salon3 {
+    background-image: url(../resources/images/salon3.jpg);
+}
+/*
+
+
+.salon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 89px;
+}
+
+
+
+.tipoSalon {
+    border-radius: 0px;
+}
+
+
+
+
+
 .salon1:hover{
     transform: rotate(-30deg);
     overflow: hidden;
 }
 
-.salon2 {
-    background-image: url(../resources/images/salon2.jpg);
-}
+
 
 .salon2:hover{
     transform: rotate(30deg);
 }
-.salon3 {
-    background-image: url(../resources/images/salon3.jpg);
-}
+
 
 .salon3:hover{
     transform: rotate(-30deg);
 }
 
-.salon4 {
-    background-image: url(../resources/images/salon4.jpg);
-    background-size: cover;
-}
+
 
 .salon4:hover{
     transform: rotate(30deg);
-}
+} */
 
 /* ------------------------------- SALONES --------------------------------- */
 
-.comments {
+/* .comments {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
-.comments h2 {
+/* .comments h2 {
     padding: 30px;
-}
+} */
 
 .comentarios {
     display: flex;
@@ -260,7 +263,7 @@ footer h6 {
 
 /* ------------------------------- WEB-RESPONSIVE --------------------------------- */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .banner {
         align-items: flex-start;
     }
@@ -340,9 +343,9 @@ footer h6 {
         width: 100%;
     }
 
-}
+} */
 
-@media screen and (max-width: 425px){
+/* @media screen and (max-width: 425px){
     header nav {
         display: flex;
         justify-content: center;
@@ -401,4 +404,4 @@ footer h6 {
     header nav ul li a:hover {
         border-radius: 10px;
     }
-}
+} */
