@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./estilos/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,16 +43,16 @@
     <section class="salones">
         <h2>Salones</h2>
         <div class="salon">
-            <div class="tipoSalon salon1">
+            <div class="tipoSalon salon1" data-aos="flip-up" data-aos-delay="100">
                 <a href="./pages/salons.html"></a>
             </div>
-            <div class="tipoSalon salon2">
+            <div class="tipoSalon salon2" data-aos="flip-up" data-aos-delay="100">
                 <a href="./pages/salons.html"></a>
             </div>
-            <div class="tipoSalon salon3">
+            <div class="tipoSalon salon3" data-aos="flip-up" data-aos-delay="100">
                 <a href="./pages/salons.html"></a>
             </div>
-            <div class="tipoSalon salon4">
+            <div class="tipoSalon salon4" data-aos="flip-up" data-aos-delay="100">
                 <a href="./pages/salons.html"></a>
             </div>
         </div>
@@ -66,14 +67,14 @@
                 <div class="comentImg comentarioImg1"></div>
                 <div class="infoComentario">
                     <h2>Rosales Gabriel</h2>
-                    <p>..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
+                    <p data-aos="zoom-in">..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
                 </div>
             </div>
             <div class="testigo comentario2">
                 <div class="comentImg comentarioImg2"></div>
                 <div class="infoComentario">
                     <h2>Costa Julieta</h2>
-                    <p>..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
+                    <p data-aos="zoom-in">..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
                 </div>
             </div>
 
@@ -81,14 +82,14 @@
                 <div class="comentImg comentarioImg3"></div>
                 <div class="infoComentario">
                     <h2>Lihuen Heredia</h2>
-                    <p>..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
+                    <p data-aos="zoom-in">..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
                 </div>
             </div>
             <div class="testigo comentario4">
                 <div class="comentImg comentarioImg4"></div>
                 <div class="infoComentario">
                     <h2>Costa Rocio</h2>
-                    <p>..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
+                    <p data-aos="zoom-in">..."Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, itaque"...</p>
                 </div>
             </div>
         </div>
@@ -99,6 +100,11 @@
             <h6>&copy;Merlo, Luciano</h6>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
 </body>
 
 </html>

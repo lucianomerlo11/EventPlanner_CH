@@ -130,12 +130,24 @@ h1 {
     background-image: url(../resources/images/salon1.jpg);
 }
 
+.salon1:hover{
+    transform: rotate(-30deg);
+    overflow: hidden;
+}
+
 .salon2 {
     background-image: url(../resources/images/salon2.jpg);
 }
 
+.salon2:hover{
+    transform: rotate(30deg);
+}
 .salon3 {
     background-image: url(../resources/images/salon3.jpg);
+}
+
+.salon3:hover{
+    transform: rotate(-30deg);
 }
 
 .salon4 {
@@ -143,6 +155,9 @@ h1 {
     background-size: cover;
 }
 
+.salon4:hover{
+    transform: rotate(30deg);
+}
 
 /* ------------------------------- SALONES --------------------------------- */
 
