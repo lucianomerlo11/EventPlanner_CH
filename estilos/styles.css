@@ -263,7 +263,17 @@ footer h6 {
 
 /* ------------------------------- WEB-RESPONSIVE --------------------------------- */
 
-/* @media screen and (max-width: 768px) {
+
+@media screen and (min-width: 500px) { 
+    h1{
+        
+        font-size: 1rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+ }
+
+/* @media screen and (max-width: 768px) {x
     .banner {
         align-items: flex-start;
     }
